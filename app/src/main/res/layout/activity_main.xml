@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11dp"
+            android:layout_weight="1"
+            android:text="Correo Electrónico:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/textViewEmail"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewCUIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CUIL"
+            android:textSize="20sp"
+            android:layout_below="@+id/editTextEmail"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editTextCUIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewCUIL"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textViewImporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Importe"
+            android:textSize="20sp"
+            android:layout_below="@+id/editTextCUIL"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/editTextDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/textViewImporte"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewCantDias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad de días"
+            android:textSize="20sp"
+            android:layout_below="@+id/editTextDecimal"
+            android:layout_alignParentStart="true" />
+
+        <SeekBar
+            android:id="@+id/seekBarCantDias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewMuestraDias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBarCantDias"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewInteres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewMuestraDias"
+            android:layout_marginTop="11dp"
+            android:text="Interés"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewValorInteres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewInteres"
+            android:text="$"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewValorInteres"
+            android:layout_marginTop="13dp"
+            android:text="Renovar Automáticamente al vencimiento"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/botonPF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/checkBox"
+            android:layout_marginTop="15dp"
+            android:text="Hacer plazo fijo" />
+
+        <TextView
+            android:id="@+id/textViewMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/botonPF"
+            android:layout_marginTop="11dp"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</LinearLayout>

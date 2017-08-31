@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menos30_1" >0.25</string>
+    <string name="mas30_1" >0.275</string>
+    <string name="menos30_2" >0.30</string>
+    <string name="mas30_2" >0.323</string>
+    <string name="menos30_3" >0.35</string>
+    <string name="mas30_3" >0.385</string>
+
+
+</resources>
