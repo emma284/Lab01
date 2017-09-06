@@ -9,4 +9,13 @@
     <string name="msjSeekBar">Debe seleccionar una cantidad de días mayor a 0.</string>
 
 
+    <string name="email">Correo Electrónico:</string>
+    <string name="cuil">CUIL:</string>
+    <string name="importe">Importe:</string>
+    <string name="cantDias">Cantidad de días:</string>
+    <string name="interes">Interés</string>
+    <string name="textoCheckBox">Renovar automáticamente al vencimiento</string>
+    <string name="boton">Hacer plazo fijo</string>
+
+
 </resources>
