@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -16,7 +17,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="11dp"
             android:layout_weight="1"
-            android:text="Correo Electrónico:"
+            android:text="@string/email"
             android:textSize="20sp" />
 
         <EditText
@@ -32,7 +33,7 @@
             android:id="@+id/textViewCUIL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CUIL"
+            android:text="@string/cuil"
             android:textSize="20sp"
             android:layout_below="@+id/editTextEmail"
             android:layout_alignParentStart="true" />
@@ -50,7 +51,7 @@
             android:id="@+id/textViewImporte"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Importe"
+            android:text="@string/importe"
             android:textSize="20sp"
             android:layout_below="@+id/editTextCUIL"
             android:layout_alignParentStart="true" />
@@ -68,7 +69,7 @@
             android:id="@+id/textViewCantDias"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cantidad de días"
+            android:text="@string/cantDias"
             android:textSize="20sp"
             android:layout_below="@+id/editTextDecimal"
             android:layout_alignParentStart="true" />
@@ -96,7 +97,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textViewMuestraDias"
             android:layout_marginTop="11dp"
-            android:text="Interés"
+            android:text="@string/interes"
             android:textSize="20sp" />
 
         <TextView
@@ -117,7 +118,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textViewValorInteres"
             android:layout_marginTop="13dp"
-            android:text="Renovar Automáticamente al vencimiento"
+            android:text="@string/textoCheckBox"
             android:textSize="16sp" />
 
         <Button
@@ -127,7 +128,7 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/checkBox"
             android:layout_marginTop="15dp"
-            android:text="Hacer plazo fijo" />
+            android:text="@string/boton" />
 
         <TextView
             android:id="@+id/textViewMensaje"
